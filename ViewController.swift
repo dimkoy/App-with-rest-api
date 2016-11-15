@@ -7,9 +7,6 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
-
 
 class ViewController: UIViewController {
     
@@ -20,7 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let requisition = [
-        Requisition(requestNumber: 1, name: "hot_girl"), //createdAt: "10.10.16"),
+        Requisition(requestNumber: 1, name: "girl"), //createdAt: "10.10.16"),
         Requisition(requestNumber: 2, name: "secnd"), //createdAt: "10.10.16"),
         Requisition(requestNumber: 3, name: "thrid") //createdAt: "10.10.16"),
     ]
